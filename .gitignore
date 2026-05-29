@@ -38,3 +38,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local backups and agent configs
+/skills/
+/.agent/
+/.claude/
+/*.png
+/*.jpg
+/*.jpeg
+/portfolio_assets_backup/
+/skills_reusable/
