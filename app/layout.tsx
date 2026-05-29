@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Anton, Roboto_Flex, Great_Vibes } from 'next/font/google';
+import { Anton, Roboto_Flex, Italiana } from 'next/font/google';
 import { ReactLenis } from 'lenis/react';
 
 import 'lenis/dist/lenis.css';
@@ -28,11 +28,11 @@ const robotoFlex = Roboto_Flex({
     variable: '--font-roboto-flex',
 });
 
-const greatVibes = Great_Vibes({
+const italiana = Italiana({
     weight: '400',
     style: 'normal',
     subsets: ['latin'],
-    variable: '--font-great-vibes',
+    variable: '--font-italiana',
 });
 
 export const metadata: Metadata = {
@@ -59,7 +59,7 @@ export default function RootLayout({
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
             </Script>
             <body
-                className={`${antonFont.variable} ${robotoFlex.variable} ${greatVibes.variable} antialiased`}
+                className={`${antonFont.variable} ${robotoFlex.variable} ${italiana.variable} antialiased`}
             >
                 <ReactLenis
                     root

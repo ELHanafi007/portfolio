@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-    --font-display: 'Italiana', serif;
-}
 
 @layer base {
     :root {
         --background: 0 0% 13%;
         --background-light: 0 0% 19%;
         --foreground: 0 0% 87%;
+        --gold: 38 45% 62%;
+        --gold-light: 42 55% 78%;
 
         --card: 0 0% 3.9%;
         --card-foreground: 0 0% 98%;
@@ -43,9 +40,17 @@
     ::-webkit-scrollbar {
         display: none;
     }
+
     * {
-        @apply border-border !cursor-none;
+        @apply border-border;
     }
+
+    @media (min-width: 768px) {
+        * {
+            cursor: none;
+        }
+    }
+
     body {
         @apply bg-background text-foreground font-roboto-flex;
     }
@@ -60,16 +65,143 @@
         @apply pl-5 mt-2 list-disc;
     }
 
+    .text-gold-gradient {
+        @apply bg-clip-text text-transparent;
+        background-image: linear-gradient(
+            135deg,
+            #c9a96e 0%,
+            #e8d5a8 45%,
+            #c9a96e 100%
+        );
+    }
+
+    .hero-title-wrap {
+        @apply relative;
+    }
+
     .hero-title {
-        font-family: var(--font-display);
-        font-size: clamp(3.5rem, 10vw, 8rem);
-        font-weight: 300;
-        letter-spacing: 0.18em;
-        line-height: 0.85;
-        margin-bottom: 1.5rem;
-        text-transform: uppercase;
-        position: relative;
+        @apply font-italiana uppercase relative;
+        font-size: clamp(3rem, 8vw, 7rem);
+        font-weight: 400;
+        letter-spacing: 0.14em;
+        line-height: 0.88;
         color: #ffffff;
+    }
+
+    .hero-title-line {
+        @apply h-px mt-6 origin-left;
+        background: linear-gradient(
+            90deg,
+            transparent,
+            #c9a96e 20%,
+            #e8d5a8 50%,
+            #c9a96e 80%,
+            transparent
+        );
+    }
+
+    .hero-title-shimmer {
+        @apply absolute top-0 pointer-events-none;
+        width: 40%;
+        height: 100%;
+        background: linear-gradient(
+            90deg,
+            transparent,
+            rgba(201, 169, 110, 0.15),
+            rgba(232, 213, 168, 0.35),
+            rgba(201, 169, 110, 0.15),
+            transparent
+        );
+        mix-blend-mode: screen;
+    }
+
+    .hero-title-glow {
+        @apply absolute pointer-events-none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 130%;
+        height: 220%;
+        background: radial-gradient(
+            ellipse,
+            rgba(201, 169, 110, 0.18) 0%,
+            transparent 65%
+        );
+    }
+
+    .hero-ambient-glow {
+        @apply absolute pointer-events-none;
+        top: 10%;
+        left: -10%;
+        width: 50%;
+        height: 60%;
+        background: radial-gradient(
+            ellipse,
+            rgba(201, 169, 110, 0.06) 0%,
+            transparent 70%
+        );
+    }
+
+    .mobile-hero-glow {
+        @apply absolute pointer-events-none;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120%;
+        height: 50%;
+        background: radial-gradient(
+            ellipse at top,
+            rgba(201, 169, 110, 0.12) 0%,
+            transparent 70%
+        );
+    }
+
+    .mobile-profile-ring {
+        @apply relative p-1 rounded-full;
+        background: linear-gradient(
+            135deg,
+            #c9a96e,
+            #e8d5a8,
+            #c9a96e
+        );
+        animation: ring-rotate 8s linear infinite;
+    }
+
+    .glass-card {
+        @apply rounded-2xl border border-white/[0.08];
+        background: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0.04) 0%,
+            rgba(255, 255, 255, 0.01) 100%
+        );
+        backdrop-filter: blur(12px);
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .preloader-name {
+        perspective: 800px;
     }
 }
 
+@keyframes ring-rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(15deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mobile-profile-ring {
+        animation: none;
+    }
+}

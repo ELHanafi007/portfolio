@@ -7,6 +7,7 @@ export default {
         './pages/**/*.{js,ts,jsx,tsx,mdx}',
         './components/**/*.{js,ts,jsx,tsx,mdx}',
         './app/**/*.{js,ts,jsx,tsx,mdx}',
+        './lib/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     theme: {
         extend: {
@@ -63,7 +64,7 @@ export default {
             fontFamily: {
                 anton: ['var(--font-anton)'],
                 'roboto-flex': ['var(--font-roboto-flex)'],
-                cursive: ['var(--font-great-vibes)'],
+                italiana: ['var(--font-italiana)'],
             },
             padding: {
                 section: '250px',
