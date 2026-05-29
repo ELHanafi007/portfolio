@@ -114,8 +114,8 @@ export const PROJECTS: IProject[] = [
         description: `Developed and deployed a modern restaurant website focused on elegant design systems, responsive layouts, and smooth customer experience across all devices.`,
         role: `Built highly polished responsive frontend architecture with conversion-focused UI systems and smooth interaction design.`,
         techStack: ['Next.js', 'React', 'TailwindCSS'],
-        thumbnail: '/projects/thumbnail/sugi.jpg',
-        longThumbnail: '/projects/long/sugi.jpg',
+        thumbnail: '/projects/thumbnail/sugi.svg',
+        longThumbnail: '/projects/long/sugi.svg',
         images: [],
     },
     {
@@ -126,8 +126,8 @@ export const PROJECTS: IProject[] = [
         description: `Designed and developed a visually rich website experience with elegant layouts, premium branding direction, and modern responsive engineering principles.`,
         role: `Implemented advanced UI/UX animations while maintaining fast loading performance and scalable component structure.`,
         techStack: ['React', 'Next.js', 'TailwindCSS', 'Framer Motion'],
-        thumbnail: '/projects/thumbnail/monaliza.jpg',
-        longThumbnail: '/projects/long/monaliza.jpg',
+        thumbnail: '/projects/thumbnail/monaliza.svg',
+        longThumbnail: '/projects/long/monaliza.svg',
         images: [],
     },
     {
@@ -138,8 +138,8 @@ export const PROJECTS: IProject[] = [
         description: `Built a premium furniture business website optimized for product presentation, customer engagement, and responsive browsing across desktop and mobile devices.`,
         role: `Engineered responsive product-focused layouts with optimized visual hierarchy and smooth navigation systems.`,
         techStack: ['Next.js', 'JavaScript', 'TailwindCSS', 'Vercel'],
-        thumbnail: '/projects/thumbnail/diamont.jpg',
-        longThumbnail: '/projects/long/diamont.jpg',
+        thumbnail: '/projects/thumbnail/diamont.svg',
+        longThumbnail: '/projects/long/diamont.svg',
         images: [],
     },
     {
@@ -150,8 +150,8 @@ export const PROJECTS: IProject[] = [
         description: `Created a visually impactful automotive service platform focused on elegant interaction systems, responsive performance, and modern UI/UX presentation.`,
         role: `Integrated advanced animation systems and responsive rendering optimizations while maintaining fast user experience.`,
         techStack: ['React', 'TailwindCSS', 'Framer Motion', 'Vercel'],
-        thumbnail: '/projects/thumbnail/rv.jpg',
-        longThumbnail: '/projects/long/rv.jpg',
+        thumbnail: '/projects/thumbnail/rv.svg',
+        longThumbnail: '/projects/long/rv.svg',
         images: [],
     },
     {
@@ -162,8 +162,8 @@ export const PROJECTS: IProject[] = [
         description: `Developed an online shopping platform optimized for responsive product display, intuitive user navigation, and customer-focused browsing experiences.`,
         role: `Built scalable product presentation systems optimized for mobile responsiveness and visual consistency.`,
         techStack: ['React', 'Next.js', 'TailwindCSS'],
-        thumbnail: '/projects/thumbnail/plants.jpg',
-        longThumbnail: '/projects/long/plants.jpg',
+        thumbnail: '/projects/thumbnail/plants.svg',
+        longThumbnail: '/projects/long/plants.svg',
         images: [],
     },
     {
@@ -174,8 +174,8 @@ export const PROJECTS: IProject[] = [
         description: `Built a responsive electric mobility platform designed to showcase products with modern layouts, optimized navigation, and visually engaging frontend architecture.`,
         role: `Optimized high-performance responsive sections and scalable frontend structure for product-focused experiences.`,
         techStack: ['Next.js', 'React', 'TailwindCSS'],
-        thumbnail: '/projects/thumbnail/trottinettes.jpg',
-        longThumbnail: '/projects/long/trottinettes.jpg',
+        thumbnail: '/projects/thumbnail/trottinettes.svg',
+        longThumbnail: '/projects/long/trottinettes.svg',
         images: [],
     },
     {
@@ -186,8 +186,8 @@ export const PROJECTS: IProject[] = [
         description: `Created a visually dynamic portfolio experience centered around smooth user interaction, modern animations, and responsive rendering systems.`,
         role: `Designed advanced motion-driven UI interactions with optimized frontend performance.`,
         techStack: ['React', 'TailwindCSS', 'Framer Motion', 'Vercel'],
-        thumbnail: '/projects/thumbnail/nirrayas.jpg',
-        longThumbnail: '/projects/long/nirrayas.jpg',
+        thumbnail: '/projects/thumbnail/nirrayas.svg',
+        longThumbnail: '/projects/long/nirrayas.svg',
         images: [],
     }
 ];

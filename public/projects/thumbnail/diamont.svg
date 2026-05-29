@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#242018"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg)"/>
+  <rect x="36" y="36" width="828" height="528" fill="none" stroke="#c9a96e" stroke-width="2" opacity="0.45"/>
+  <text x="450" y="300" fill="#e8d5a8" font-family="Georgia, serif" font-size="52" text-anchor="middle" letter-spacing="8">DIAMONT ARIS</text>
+  <text x="450" y="350" fill="#8a8a8a" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" letter-spacing="6">MEUBLES</text>
+</svg>
