@@ -9,7 +9,7 @@ export const GENERAL_INFO = {
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/ELHanafi007?utm_source=chatgpt.com' },
+    { name: 'github', url: 'https://github.com/ELHanafi007' },
     { name: 'whatsapp', url: 'https://wa.me/212631305954' },
     { name: 'instagram', url: 'https://instagram.com/0x_.hf' },
 ];
@@ -109,7 +109,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Sugi Sushi Saudi Arabia',
         slug: 'sugi-sushi',
-        liveUrl: 'https://sugisushi.com.sa?utm_source=chatgpt.com',
+        liveUrl: 'https://sugisushi.com.sa',
         year: 2025,
         description: `Developed and deployed a modern restaurant website focused on elegant design systems, responsive layouts, and smooth customer experience across all devices.`,
         role: `Built highly polished responsive frontend architecture with conversion-focused UI systems and smooth interaction design.`,
@@ -121,7 +121,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Monaliza House',
         slug: 'monaliza-house',
-        liveUrl: 'https://monalizahouse.com?utm_source=chatgpt.com',
+        liveUrl: 'https://monalizahouse.com',
         year: 2025,
         description: `Designed and developed a visually rich website experience with elegant layouts, premium branding direction, and modern responsive engineering principles.`,
         role: `Implemented advanced UI/UX animations while maintaining fast loading performance and scalable component structure.`,
@@ -133,7 +133,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Diamont Aris Meubles',
         slug: 'diamont-aris-meubles',
-        liveUrl: 'https://diamontarismeubles.com?utm_source=chatgpt.com',
+        liveUrl: 'https://diamontarismeubles.com',
         year: 2025,
         description: `Built a premium furniture business website optimized for product presentation, customer engagement, and responsive browsing across desktop and mobile devices.`,
         role: `Engineered responsive product-focused layouts with optimized visual hierarchy and smooth navigation systems.`,
@@ -145,7 +145,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'RV Detailing',
         slug: 'rv-detailing',
-        liveUrl: 'https://rv-detailing.vercel.app/?utm_source=chatgpt.com',
+        liveUrl: 'https://rv-detailing.vercel.app',
         year: 2025,
         description: `Created a visually impactful automotive service platform focused on elegant interaction systems, responsive performance, and modern UI/UX presentation.`,
         role: `Integrated advanced animation systems and responsive rendering optimizations while maintaining fast user experience.`,
@@ -157,7 +157,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Artificial Plants Shop',
         slug: 'artificial-plants-shop',
-        liveUrl: 'https://www.artificialplants.shop?utm_source=chatgpt.com',
+        liveUrl: 'https://www.artificialplants.shop',
         year: 2025,
         description: `Developed an online shopping platform optimized for responsive product display, intuitive user navigation, and customer-focused browsing experiences.`,
         role: `Built scalable product presentation systems optimized for mobile responsiveness and visual consistency.`,
@@ -169,7 +169,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Trottinettes Maroc',
         slug: 'trottinettes-maroc',
-        liveUrl: 'https://trottinettes-maroc.vercel.app?utm_source=chatgpt.com',
+        liveUrl: 'https://trottinettes-maroc.vercel.app',
         year: 2025,
         description: `Built a responsive electric mobility platform designed to showcase products with modern layouts, optimized navigation, and visually engaging frontend architecture.`,
         role: `Optimized high-performance responsive sections and scalable frontend structure for product-focused experiences.`,
@@ -181,7 +181,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Nirrayas Portfolio Experience',
         slug: 'nirrayas-portfolio-experience',
-        liveUrl: 'https://nirrayas.vercel.app?utm_source=chatgpt.com',
+        liveUrl: 'https://nirrayas.vercel.app',
         year: 2025,
         description: `Created a visually dynamic portfolio experience centered around smooth user interaction, modern animations, and responsive rendering systems.`,
         role: `Designed advanced motion-driven UI interactions with optimized frontend performance.`,
